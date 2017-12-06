@@ -5,12 +5,15 @@ Steps to create a Visual Studio Project with React Support
 Create a ASP.NET Core Project in Visual Studio.
 
 # Step 2
-Create a Scripts folder in the root folder of the project
+Create a Scripts folder in the root folder of the project.
+
 Create src folder under Scripts Folder
 
 # Step 3
-Copy package.json, tsconfig.json adn webpack.config.js from the repository to the root folder of the project
-Open Command Prompt and Navigate to the location where package.json is present
+Copy package.json, tsconfig.json and webpack.config.js from the repository to the root folder of the project.
+
+Open Command Prompt and Navigate to the location where package.json is present.
+
 On Windows type the below command:
 ```
 npm install
@@ -23,7 +26,8 @@ sudo npm install
 Now all the required dependencies have been installed by npm
 
 # Step 4
-Create a components folder under Scripts/src folder added earlier
+Create a components folder under Scripts/src folder added earlier.
+
 Create a Hello.tsx file in Script/src/components folder with the below content:
 
 ```html
