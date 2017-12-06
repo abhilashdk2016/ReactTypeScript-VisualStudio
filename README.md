@@ -21,6 +21,7 @@ Now all the required dependencies have been installed by npm
 # Step 4
 Create a components folder under Scripts/src folder added earlier
 Create a Hello.tsx file in Script/src/components folder with the below content:
+
 import * as React from "react";
 
 export interface IHelloProps {
@@ -35,7 +36,8 @@ export class Hello extends React.Component<IHelloProps, {}> {
     }
 }
 
-Create an index.tsx file in Scripts/src folder with the below content
+Create an index.tsx file in Scripts/src folder with the below content:
+
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { Hello } from './components/Hello';
@@ -44,8 +46,7 @@ ReactDOM.render(
     <div>
         <Hello text="Hello From React TypeScript..." />
     </div>,
-    document.getElementById("app")
-);
+    document.getElementById("app"));
 
 # Step 5
 In the command prompt execute:
