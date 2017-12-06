@@ -12,15 +12,17 @@ Create src folder under Scripts Folder
 # Step 3
 Copy package.json, tsconfig.json and webpack.config.js from the repository to the root folder of the project.
 
-Open Command Prompt and Navigate to the location where package.json is present.
+Open Command Prompt (Administrator Mode in Windows is Preffered) and Navigate to the location where package.json is present.
 
 On Windows type the below command:
 ```
 npm install
+npm link typescript
 ```
 On Mac type the below command:
 ```
 sudo npm install
+sudo npm link typescript
 ```
 
 Now all the required dependencies have been installed by npm
