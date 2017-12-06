@@ -1,4 +1,4 @@
-# ReactTypeScript-VisualStudio
+# React, TypeScript, VisualStudio
 Steps to create a Visual Studio Project with React Support
 
 # Step 1
